@@ -1,0 +1,30 @@
+@import './variables.scss';
+
+.App {
+  text-align: center;
+  background: rgb(249, 249, 249);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+.category {
+  margin-left: 1rem;
+}
+
+.homePage {
+  margin-left: 5%;
+  margin-right: 5%;
+
+}
+
+.productPage {
+  margin-left: 5%;
+  margin-right: 5%;
+}

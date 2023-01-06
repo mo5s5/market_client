@@ -1,0 +1,42 @@
+@import '../../variables.scss';
+
+.categorySmall-container {
+  flex: 0 0 30%;
+  order: -1;
+  min-width: 140px;
+  border: solid 2px;
+  border-color: $clr-primary;
+  border-radius: 8px;
+  padding-bottom: 1.5em;
+  padding-top: 0;
+
+  .categorySmall-title {
+    border-radius: 8px;
+    font-size: 1.3rem;
+    margin-top: 0;
+    background-color: $clr-primary;
+    color: white;
+    width: 100%;
+    padding: .5em;
+  }
+
+  .categorySmall {
+    text-align: left;
+    font-size: 1.3rem;
+    cursor: pointer;
+    font-weight: bold;
+    color: $clr-primary;
+    margin-left: 1rem;
+
+    &:hover {
+      color: red;
+    }
+  }
+
+  .productList {
+    flex: 0 0;
+    order: 1;
+    display: flex;
+    margin-left: 10%;
+  }
+}
